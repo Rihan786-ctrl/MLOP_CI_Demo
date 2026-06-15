@@ -18,17 +18,17 @@ def fourth_power(number):
 # Test sq fun
 def test_square():
     assert square(2) == 4, "Test Failed: Square of 2 should be 4"
-    assert square(2) == 9, "Test Failed: Square of 3 should be 9"
+    assert square(3) == 9, "Test Failed: Square of 3 should be 9"
 
 # Test cube fun 
 def test_cube():
-    assert cube(2) == 8, "Test Failed: Square of 2 should be 8"
-    assert cube(2) == 27, "Test Failed: Square of 3 should be 27"
+    assert cube(2) == 8, "Test Failed: Cube of 2 should be 8"
+    assert cube(3) == 27, "Test Failed: Cube of 3 should be 27"
 
 # Test fourth power fun
 def test_fourth_power():
-    assert fourth_power(2) == 16, "Test Failed: Square of 2 should be 16"
-    assert fourth_power(2) == 81, "Test Failed: Square of 3 should be 81"
+    assert fourth_power(2) == 16, "Test Failed: Fourth power of 2 should be 16"
+    assert fourth_power(3) == 81, "Test Failed: Fourth power of 3 should be 81"
 
 
 # test for invalid input
